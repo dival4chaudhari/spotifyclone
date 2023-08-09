@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify - Web player: Music for everyone</title>
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="navoption" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="navoption">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+            <div class="option">
+                <div class="liboption navoption">
+                    <img src="All images/library_icon.png">
+                    <a href="#">Your library</a>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="libboxes">
+                <div class="box">
+                    <p class="boxp1">Create your first playylist</p>
+                    <p class="boxp2">It's easy, we'll help you</p>
+                    <button class="badge">Create playlist</button>
+                </div>
+                <div class="box">
+                    <p class="boxp1">Let's find some podcasts to follow</p>
+                    <p class="boxp2">We'll keep you updated on new episodes</p>
+                    <button class="badge">Browse podcasts</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="maincontent">
+            <div class="stickynav">
+                <div class="stknavicon">
+                    <img src="All images/backward_icon.png" >
+                    <img src="All images/forward_icon.png " class="hide" >
+                </div>
+                <div class="stknavoption">
+                    <button class="badge navitem hide">Explore Premium</button>
+                    <button class="badge navitem darkbadge"><i class="fa-regular fa-circle-down" style="padding-right: 0.25rem;"></i>Install app</button>
+                    <i class="fa-regular fa-user navitem"></i>
+                </div>
+
+            </div>
+
+                <h2>Recently Played</h2>
+                <div class="cardscontainer">
+                    <div class="card">
+                        <img class="cardimg" src="All images/card1img.jpeg">
+                        <p class="cardtitle">Top 50 - Global</p>
+                        <p class="cardinfo">Your daily update of the most played...</p>
+                    </div>
+                </div>
+
+                <h2>Trending now near you</h2>
+                <div class="cardscontainer">
+                    <div class="card">
+                        <img class="cardimg" src="All images/card2img.jpeg">
+                        <p class="cardtitle">Mahiye Jinna Sohna</p>
+                        <p class="cardinfo">Darshan ravel</p>
+                    </div>
+                    <div class="card">
+                        <img class="cardimg" src="All images/card3img.jpeg">
+                        <p class="cardtitle">Mere Pass Tum Ho</p>
+                        <p class="cardinfo">Silent ocean</p>
+                    </div>
+                    <div class="card">
+                        <img class="cardimg" src="All images/card4img.jpeg">
+                        <p class="cardtitle">Alter Ego Naa Ready</p>
+                        <p class="cardinfo">Vijay Kumar</p>
+                    </div>
+                    
+                </div>
+                <h2>Featured charts</h2>
+                <div class="cardscontainer">
+                    <div class="card">
+                        <img class="cardimg" src="All images/card5img.jpeg">
+                        <p class="cardtitle">Top Songs Global</p>
+                        <p class="cardinfo">The songs which you will love</p>
+                    </div>
+                    <div class="card">
+                        <img class="cardimg" src="All images/card6img.jpeg">
+                        <p class="cardtitle">Top Songs India</p>
+                        <p class="cardinfo">Indian songs on your fingure tips</p>
+                    </div>
+                    <div class="card">
+                        <img class="cardimg" src="All images/card1img.jpeg">
+                        <p class="cardtitle">Top 50 - Global</p>
+                        <p class="cardinfo">Your daily update of the most played...</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line">
+
+                    </div>
+                </div>
+            </div>
+        <div class="musicplayer">
+            <div class="album">
+                <div class="currsong">
+                    <img class="songimg" src="All images/card2img.jpeg">
+                    <div class="cursonginfo">
+                        <p style="font-size: 70%;">Mahiye Jinaa Sohna</p>
+                        <p>Darshan Ravel</p>
+                    </div>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-circle-down"></i>
+
+                </div>
+            </div>
+            <div class="player">
+
+                <div class="playercontrol">
+                    <img src="All images/player_icon1.png" class="playercontrolicon">
+                    <img src="All images/player_icon2.png" class="playercontrolicon">
+                    <img src="All images/player_icon3.png" class="playercontrolicon" style="opacity: 1; height: 1.8rem;">
+                    <img src="All images/player_icon4.png" class="playercontrolicon">
+                    <img src="All images/player_icon5.png" class="playercontrolicon">
+                </div>
+                <div class="playbar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progressbar" step="1">
+                    <span class="total-time">3:33</span>
+                </div>
+
+            </div>
+            <div class="controls">
+                <div class="controlicons">
+                    <!-- <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-regular fa-circle-play"></i> -->
+                    <div class="volume">Volume
+                        <input type="range">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
